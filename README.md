@@ -2,6 +2,15 @@
 
 The _original_ lightbox script.
 
+A modified copy of lightbox 2 that adds `data-description` and `data-description-link` as attributes to the image link to display them below the image title when the lightbox opens
+
+```
+<a href="full_image_link" class="lightbox-class" data-lightbox="lightbox-images" 
+  title="your main title" data-description="the new description" data-description-link="the new description link"> 
+	<img src="url_to_small_image" class="jnc-small-lightbox-image" alt="image alt">
+</a>
+```
+
 Lightbox is small javascript library used to overlay images on top of the current page. It's a snap to setup and works on all modern browsers.
 
 - **Demos and usage instructions.** Visit the [Lightbox homepage](http://lokeshdhakar.com/projects/lightbox2/) to see examples, info on getting started, script options, how to get help, and more.
